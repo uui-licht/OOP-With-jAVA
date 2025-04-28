@@ -37,7 +37,7 @@ class Book {
     }
 
     public static void main(String[] args) {
-        Book book = new Book("ABSOLUTE JAVA", "Safeeullah Shaikh");
+        Book book = new Book("ABSOLUTE JAVA", "Ali Usama");
         book.displayBookDetails();
         book.borrowBook();
         book.checkAvailability();
