@@ -24,7 +24,7 @@ class Employee {
     }
 
     public static void main(String[] args) {
-        Employee employee = new Employee("Haider Khan", "ARI200", 50000);
+        Employee employee = new Employee("Salar Ahmed", "ARI----", 150000);
         employee.increaseSalary(10000);
         employee.displayDetails();
         System.out.println("Annual Salary: " + employee.getAnnualSalary());
